@@ -1,0 +1,23 @@
+{
+  "name": "kolter/{packagename}",
+  "description": "{description}",
+  "keywords": ["{tags}"],
+  "homepage": "https://github.com/Ozumas7/{packagename}",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Pablo Luna",
+      "email": "skyluna7@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "require-dev":{
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Kolter\\{PackageName}\\": "src/"
+    }
+  }
+}
